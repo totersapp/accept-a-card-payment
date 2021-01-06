@@ -13,7 +13,7 @@ import Stripe
  * This example collects card payments, implementing the guide here: https://stripe.com/docs/payments/accept-a-payment#ios
  * To run this app, follow the steps here https://github.com/stripe-samples/accept-a-card-payment#how-to-run-locally
  */
-let BackendUrl = "http://127.0.0.1:4242/"
+let BackendUrl = "https://hhqhp.sse.codesandbox.io/"
 
 class CheckoutViewController: UIViewController {
     var paymentIntentClientSecret: String?
